@@ -1,0 +1,59 @@
+/* Empty */
+body {
+    background: #cbccc8;
+    background: -webkit-gradient(linear, left top, left bottom, from(#fff), to(#cbccc8));
+    background: -moz-linear-gradient(top, #fff, #cbccc8);
+    filter: progid: DXImageTransform.Microsoft.gradient(startColorstr='#ffffff', endColorstr='#cbccc8');
+    height: 100%;
+    margin: 0;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+.titulo {
+    font-size: 20px;
+}
+
+.iconHeader {
+    width: 100px;
+}
+.login-popup-wrap {
+    background-color: rgb(250, 249, 249);
+    padding: 20px;
+    border-radius: 5%;
+    box-shadow: -1px 8px 5px -4px rgba(0,0,0,0.58);
+    -webkit-box-shadow: -1px 8px 5px -4px rgba(0,0,0,0.58);
+    -moz-box-shadow: -1px 8px 5px -4px rgba(0,0,0,0.58);
+}
+
+.login-popup-heading>h4 {
+    color: #258b47;
+    font-size: 18px;
+    line-height: 30px;
+}
+.new_reg_popup, .new_login_popup {
+    border-radius: 2px;
+    min-height: 332px;
+    width: 400px;
+    margin: 0px auto;
+}
+.login-popup-btn {
+    background: #258b47;
+    border: none;
+    border-radius: 25px;
+    color: #fff;
+    display: block;
+    font-size: 18px;
+    height: 38px;
+    line-height: 28px;
+    margin: 20px auto 5px;
+    width: 150px;
+    -webkit-transition: all 700ms ease;
+    -moz-transition: all 700ms ease;
+    -ms-transition: all 700ms ease;
+    -o-transition: all 700ms ease;
+}
+a{
+     color: #258b47;
+     font-size: 18px;
+}
